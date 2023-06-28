@@ -1,0 +1,67 @@
+/* Style for the modal */
+/* Style for the modal */
+.modal-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    background-color: #fff;
+    z-index: 1050;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .modal-right.show {
+    transform: translateX(0%);
+  }
+  
+  
+  /* Style for the modal header */
+  .modal-right .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+  }
+  
+  /* Style for the modal body */
+  .modal-right .modal-body {
+    padding: 20px;
+  }
+  
+  /* Style for the modal footer */
+  .modal-right .modal-footer {
+    border-top: none;
+    padding: 15px;
+    text-align: right;
+  }
+  /* Style for the description input field */
+.modal-right form .form-group textarea {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    resize: none;
+  }
+  
+  
+  /* Style for the form inputs */
+  .modal-right form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the privacy section */
+  .modal-right form .form-group fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the radio buttons */
+  .modal-right form .form-group fieldset .form-check {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the save and cancel buttons */
+  .modal-right .modal-footer button {
+    margin-left: 10px;
+  }
+  
